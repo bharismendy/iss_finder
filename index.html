@@ -2,27 +2,23 @@
 <html lang="fr" dir="ltr">
   <head>
     <title>ISS Finder</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="CSS/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <meta charset="utf-8">
   </head>
   <body>
-    <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">ISS Finder</h1>
-      <p class="lead">Ce projet a pour but de réaliser l'affichage de la position de l'iss en temps réel sur une carte</p>
+    <div id="title_section">
+      <h1>ISS Finder</h1>
+      <p>Ce projet a pour but de réaliser l'affichage de la position de l'iss en temps réel sur une carte</p>
     </div>
-    <div class="container">
-      <div class="row ">
-        <div class="col col-4 mx-auto">
+    <div class="flex-container">
+        <div class="flex-items">
           <p><u>Latitude&nbsp;:</u>&nbsp;<span id="lat">N/A</span></p>
         </div>
-        <div class="col col-4 text-right mx-auto">
+        <div class="flex-items">
           <p><u>Longitude&nbsp;:</u>&nbsp;<span id="lon">N/A</span></p>
         </div>
-      </div>
-     <div id="world_map">
     </div>
-    </div>
+    <div id="world_map"></div>  
     <footer>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
               integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
@@ -34,7 +30,7 @@
       <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
       integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
       crossorigin=""></script>
-      <script type="text/javascript" src="JS/main.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
 
     </footer>
   </body>

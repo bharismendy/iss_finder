@@ -1,0 +1,17 @@
+#world_map {
+    height: 600px;
+}
+#title_section{
+    padding: 50px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
